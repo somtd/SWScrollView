@@ -1,22 +1,22 @@
 //
-//  SWAppDelegate.m
+//  AppDelegate.m
 //  SWScrollView
 //
 //  Created by SOMTD on 2013/06/12.
 //  Copyright (c) 2013年 SOMTD. All rights reserved.
 //
 
-#import "SWAppDelegate.h"
+#import "AppDelegate.h"
 
-#import "SWViewController.h"
+#import "SampleViewController.h"
 
-@implementation SWAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[SWViewController alloc] initWithNibName:@"SWViewController" bundle:nil];
+    self.viewController = [[SampleViewController alloc] init];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

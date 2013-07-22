@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface SWScrollView : UITextView
+@interface SWScrollView : UIView
+
++ (id) scrollView;
 
 @end

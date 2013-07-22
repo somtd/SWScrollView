@@ -1,5 +1,5 @@
 //
-//  SWAppDelegate.h
+//  AppDelegate.h
 //  SWScrollView
 //
 //  Created by SOMTD on 2013/06/12.
@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class SWViewController;
+@class SampleViewController;
 
-@interface SWAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) SWViewController *viewController;
+@property (strong, nonatomic) SampleViewController *viewController;
 
 @end
