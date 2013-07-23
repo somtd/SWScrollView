@@ -17,13 +17,13 @@ Scroll view like Star Wars opening crawl.
 
 Import header
 
-```
+```objectivec
 #import "SWScrollView.h"
 ```
 
 Instantiate SWScrollView along with start point and add view on any other view that you want.
 
-```
+```objectivec
 CGPoint scrollStartPoint = CGPointMake(0, -600);
 SWScrollView *scrollView = [SWScrollView scrollViewWithStartPoint:scrollStartPoint];
 [self.view addSubview:scrollView];
@@ -31,7 +31,7 @@ SWScrollView *scrollView = [SWScrollView scrollViewWithStartPoint:scrollStartPoi
 
 If you want start animating automatically, call following method.
 
-```
+```objectivec
 [scrollView startAnimationWithDuration:12.f completion:^(BOOL finished) {
         // Write what you to do when finished this animation.
 }];
@@ -46,7 +46,7 @@ Of course You can change crawling message in `SWScrollView.xib`.
 ###Perspective of scroll view
 If you want to change perspective of scroll view. Edit `-(void)setupScrollPerspective` method in `SWScrollView.m`.
 
-```SWScrollView.m
+```objectivec
 - (void)setupScrollPerspective
 {
     CATransform3D transform = CATransform3DIdentity;
