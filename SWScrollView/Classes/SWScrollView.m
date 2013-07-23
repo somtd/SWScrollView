@@ -81,17 +81,18 @@
     return view;
 }
 
-- (void)startAnimationWithDuration:(NSTimeInterval)duration completion:(void (^)(BOOL finished))completion
+- (void)startAnimationWithDuration:(NSTimeInterval)duration
+                        completion:(void (^)(BOOL finished))completion
 {
-    CGFloat animationWidth  = self.frame.size.width;
-    CGFloat animationHeight = self.frame.size.height + 40;
+    CGFloat animationWidth  = [[UIScreen mainScreen] bounds].size.width;
+    CGFloat animationHeight = [[UIScreen mainScreen] bounds].size.height + 120;
     CGRect animationRect = CGRectMake(0, 0, animationWidth, animationHeight);
     [UIView animateWithDuration:duration
                           delay:0
                         options:UIViewAnimationOptionCurveLinear
                      animations:^{ [_textView scrollRectToVisible:animationRect animated:NO]; }
                      completion:^(BOOL finished) {
-                         //
+                         completion(finished);
                      }];
     
 }
