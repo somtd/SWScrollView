@@ -7,7 +7,7 @@ Scroll view like Star Wars opening crawl.
 　![sample2](http://f.cl.ly/items/1j1d1f2W3B0e041p2n2A/SWScroll2.png) 
 
 
-<GIFの埋め込み>
+<img src="http://25.media.tumblr.com/84f59de6f9e5a97d0bdb154585d8813f/tumblr_mqdk19HCh41qgwcbqo1_400.gif" alt="SWScrollView" title="SWScrollView" style="display:block; margin: 10px auto 30px auto; align:center">
 
 ##Requirements
 
