@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface SWScrollView : UIView
-
-+ (id) scrollView;
-
++ (id)scrollViewWithStartPoint:(CGPoint)startPoint;
+- (void)startAnimationWithDuration:(NSTimeInterval)duration
+                        completion:(void (^)(BOOL finished))completion;
 @end

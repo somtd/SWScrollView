@@ -30,17 +30,13 @@
     UIImageView *backgroundView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"background.png"]];
     [self.view addSubview:backgroundView];
     
-    SWScrollView *baseView = [SWScrollView scrollView];
-    [self.view addSubview:baseView];
+    CGPoint scrollStartPoint = CGPointMake(0, -600);
+    SWScrollView *scrollView = [SWScrollView scrollViewWithStartPoint:scrollStartPoint];
+    [self.view addSubview:scrollView];
     
-//    baseView.scrollView.contentOffset = CGPointMake(0, -640);
-//    
-//    CGRect animationRect = CGRectMake(0, 0, 320, 570);
-//    [UIView animateWithDuration:12
-//                          delay:0
-//                        options:UIViewAnimationOptionCurveEaseInOut
-//                     animations:^{ [baseView.scrollView scrollRectToVisible:animationRect animated:NO]; }
-//                     completion:NULL];
+    [scrollView startAnimationWithDuration:12.f completion:^(BOOL finished) {
+        // 
+    }];
 }
 
 - (void)didReceiveMemoryWarning

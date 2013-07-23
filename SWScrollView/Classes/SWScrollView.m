@@ -55,6 +55,11 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
+    [self setupScrollPerspective];
+}
+
+- (void)setupScrollPerspective
+{
     CATransform3D transform = CATransform3DIdentity;
     //z distance
     float distance = [[UIScreen mainScreen] bounds].size.height;
@@ -67,12 +72,28 @@
                                       [[UIScreen mainScreen] bounds].size.height/3);
 }
 
-+ (id)scrollView
++ (id)scrollViewWithStartPoint:(CGPoint)startPoint
 {
     // nib ファイルから読み込む
     UINib *nib = [UINib nibWithNibName:@"SWScrollView" bundle:nil];
     SWScrollView *view = [[nib instantiateWithOwner:self options:nil] objectAtIndex:0];
+    [view.textView setContentOffset:startPoint];
     return view;
+}
+
+- (void)startAnimationWithDuration:(NSTimeInterval)duration completion:(void (^)(BOOL finished))completion
+{
+    CGFloat animationWidth  = self.frame.size.width;
+    CGFloat animationHeight = self.frame.size.height + 40;
+    CGRect animationRect = CGRectMake(0, 0, animationWidth, animationHeight);
+    [UIView animateWithDuration:duration
+                          delay:0
+                        options:UIViewAnimationOptionCurveLinear
+                     animations:^{ [_textView scrollRectToVisible:animationRect animated:NO]; }
+                     completion:^(BOOL finished) {
+                         //
+                     }];
+    
 }
 
 /*

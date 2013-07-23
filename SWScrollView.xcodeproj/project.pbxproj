@@ -13,15 +13,15 @@
 		5A9251A3179DF290008761D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A925193179DF290008761D2 /* Default@2x.png */; };
 		5A9251A4179DF290008761D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A925195179DF290008761D2 /* InfoPlist.strings */; };
 		5A9251A6179DF290008761D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A925199179DF290008761D2 /* main.m */; };
-		5A9251A9179DF290008761D2 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A92519E179DF290008761D2 /* SampleViewController.m */; };
 		5A9251AA179DF290008761D2 /* SWScrollView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A92519F179DF290008761D2 /* SWScrollView-Info.plist */; };
-		5A9251AD179DF2B9008761D2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9251AB179DF2B9008761D2 /* background.png */; };
-		5A9251AE179DF2B9008761D2 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9251AC179DF2B9008761D2 /* background@2x.png */; };
 		5A9251B1179DF305008761D2 /* SWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9251B0179DF305008761D2 /* SWScrollView.m */; };
+		5A9251B9179DFEF7008761D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9251B3179DFEF7008761D2 /* AppDelegate.m */; };
+		5A9251BA179DFEF7008761D2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9251B5179DFEF7008761D2 /* background.png */; };
+		5A9251BB179DFEF7008761D2 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9251B6179DFEF7008761D2 /* background@2x.png */; };
+		5A9251BC179DFEF7008761D2 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9251B8179DFEF7008761D2 /* SampleViewController.m */; };
 		5AB452D117684DB600C42463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB452D017684DB600C42463 /* UIKit.framework */; };
 		5AB452D317684DB600C42463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB452D217684DB600C42463 /* Foundation.framework */; };
 		5AB452D517684DB600C42463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB452D417684DB600C42463 /* CoreGraphics.framework */; };
-		5AB452E117684DB600C42463 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB452E017684DB600C42463 /* AppDelegate.m */; };
 		5AB452F41768505300C42463 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB452F31768505300C42463 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,20 +32,20 @@
 		5A925193179DF290008761D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5A925196179DF290008761D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		5A925199179DF290008761D2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A92519D179DF290008761D2 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
-		5A92519E179DF290008761D2 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		5A92519F179DF290008761D2 /* SWScrollView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SWScrollView-Info.plist"; sourceTree = "<group>"; };
 		5A9251A0179DF290008761D2 /* SWScrollView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SWScrollView-Prefix.pch"; sourceTree = "<group>"; };
-		5A9251AB179DF2B9008761D2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		5A9251AC179DF2B9008761D2 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		5A9251AF179DF305008761D2 /* SWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWScrollView.h; sourceTree = "<group>"; };
 		5A9251B0179DF305008761D2 /* SWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWScrollView.m; sourceTree = "<group>"; };
+		5A9251B2179DFEF7008761D2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Sample/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		5A9251B3179DFEF7008761D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Sample/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		5A9251B5179DFEF7008761D2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		5A9251B6179DFEF7008761D2 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		5A9251B7179DFEF7008761D2 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleViewController.h; path = Sample/SampleViewController.h; sourceTree = SOURCE_ROOT; };
+		5A9251B8179DFEF7008761D2 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleViewController.m; path = Sample/SampleViewController.m; sourceTree = SOURCE_ROOT; };
 		5AB452CD17684DB600C42463 /* SWScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB452D017684DB600C42463 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5AB452D217684DB600C42463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5AB452D417684DB600C42463 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5AB452DF17684DB600C42463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5AB452E017684DB600C42463 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5AB452F31768505300C42463 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -77,11 +77,11 @@
 		5A611893179D39D100D882FA /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				5AB452F517688CD900C42463 /* Resources */,
-				5AB452DF17684DB600C42463 /* AppDelegate.h */,
-				5AB452E017684DB600C42463 /* AppDelegate.m */,
-				5A92519D179DF290008761D2 /* SampleViewController.h */,
-				5A92519E179DF290008761D2 /* SampleViewController.m */,
+				5A9251B2179DFEF7008761D2 /* AppDelegate.h */,
+				5A9251B3179DFEF7008761D2 /* AppDelegate.m */,
+				5A9251B7179DFEF7008761D2 /* SampleViewController.h */,
+				5A9251B8179DFEF7008761D2 /* SampleViewController.m */,
+				5A9251B4179DFEF7008761D2 /* Resources */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -93,6 +93,16 @@
 			);
 			path = en.lproj;
 			sourceTree = "<group>";
+		};
+		5A9251B4179DFEF7008761D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A9251B5179DFEF7008761D2 /* background.png */,
+				5A9251B6179DFEF7008761D2 /* background@2x.png */,
+			);
+			name = Resources;
+			path = Sample/Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 		5AB452C417684DB600C42463 = {
 			isa = PBXGroup;
@@ -144,16 +154,7 @@
 				5A9251A0179DF290008761D2 /* SWScrollView-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			path = Sample;
-			sourceTree = "<group>";
-		};
-		5AB452F517688CD900C42463 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5A9251AB179DF2B9008761D2 /* background.png */,
-				5A9251AC179DF2B9008761D2 /* background@2x.png */,
-			);
-			path = Resources;
+			path = ../Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +215,8 @@
 				5A9251A3179DF290008761D2 /* Default@2x.png in Resources */,
 				5A9251A4179DF290008761D2 /* InfoPlist.strings in Resources */,
 				5A9251AA179DF290008761D2 /* SWScrollView-Info.plist in Resources */,
-				5A9251AD179DF2B9008761D2 /* background.png in Resources */,
-				5A9251AE179DF2B9008761D2 /* background@2x.png in Resources */,
+				5A9251BA179DFEF7008761D2 /* background.png in Resources */,
+				5A9251BB179DFEF7008761D2 /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,10 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB452E117684DB600C42463 /* AppDelegate.m in Sources */,
 				5A9251A6179DF290008761D2 /* main.m in Sources */,
-				5A9251A9179DF290008761D2 /* SampleViewController.m in Sources */,
 				5A9251B1179DF305008761D2 /* SWScrollView.m in Sources */,
+				5A9251B9179DFEF7008761D2 /* AppDelegate.m in Sources */,
+				5A9251BC179DFEF7008761D2 /* SampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,8 +308,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SWScrollView/Sample/SWScrollView-Prefix.pch";
-				INFOPLIST_FILE = "SWScrollView/Sample/SWScrollView-Info.plist";
+				GCC_PREFIX_HEADER = "Sample/SWScrollView-Prefix.pch";
+				INFOPLIST_FILE = "Sample/SWScrollView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -318,8 +320,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SWScrollView/Sample/SWScrollView-Prefix.pch";
-				INFOPLIST_FILE = "SWScrollView/Sample/SWScrollView-Info.plist";
+				GCC_PREFIX_HEADER = "Sample/SWScrollView-Prefix.pch";
+				INFOPLIST_FILE = "Sample/SWScrollView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
