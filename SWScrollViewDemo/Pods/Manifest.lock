@@ -1,0 +1,14 @@
+PODS:
+  - SWScrollView (0.0.1)
+
+DEPENDENCIES:
+  - SWScrollView (from `..`)
+
+EXTERNAL SOURCES:
+  SWScrollView:
+    :path: ..
+
+SPEC CHECKSUMS:
+  SWScrollView: 5695fc248ebe62bf469499fa1b73475b21083308
+
+COCOAPODS: 0.22.3
