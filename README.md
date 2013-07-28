@@ -13,6 +13,13 @@ Scroll view like Star Wars opening crawl.
 
  iOS5.1 or later
 
+##Installing
+By using CocoaPods
+
+```
+pod 'SWScrollView', '~> 0.0.1'
+```
+
 ##Usage
 
 Import header
